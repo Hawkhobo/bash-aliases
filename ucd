@@ -1,0 +1,24 @@
+# jump to in-progress UCD class directories
+alias ecs179="cd /home/hawkhobo/ucd/fq25/ecs179"
+alias ecs189d="cd /home/hawkhobo/ucd/fq25/ecs189d"
+alias ecs160="cd /home/hawkhobo/ucd/fq25/ecs160"
+
+# current hw assignments
+alias ecs179hw="cd /home/hawkhobo/ucd/fq25/ecs179/exercises/myexercises/exercise-3-Hawkhobo"
+alias ecs122hw="cd /home/hawkhobo/ucd/sq25/ecs122b/hw"
+alias ecs160hw="cd /home/hawkhobo/ucd/fq25/ecs160/homework/hw3/"
+
+# print directory 6-deep from current working directory. for use in ECS160 hw
+alias l6="l */*/*/*/*/*/*"
+
+# create a libre-office copy of the GameProject.md for ECS 179
+alias libre-game-project="pandoc GameProject.md -f markdown -t odt -s -o GameProject.odt"
+
+# ecs 163 final project
+alias bayarea="cd /home/hawkhobo/ucd/sq25/ecs163/Bay-Area-Gentrification"
+
+# jump to directory of godot-4 projects
+alias godot-projects="cd /home/hawkhobo/.local/share/godot/app_userdata"
+
+# ecs 179 videogame!
+alias lunarium="cd /home/hawkhobo/ucd/fq25/ecs179/lunarium/"
