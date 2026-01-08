@@ -1,4 +1,7 @@
-alias xo="xdg-open"
+# run xdg-open & free terminal session without killing running process
+xo() {
+    xdg-open "$@" &>/dev/null 2>1 & disown
+}
 
 # open docker desktop on this system
 alias docker_desktop="systemctl --user start docker-desktop"
